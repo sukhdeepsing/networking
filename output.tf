@@ -7,5 +7,12 @@ output "my_subnet" {
 output "my_igw" {
   value = aws_internet_gateway.igw.id
 }
+output "my_aws_route_table" {
+  value = aws_route_table.my-route-table.id
+}
+output "my_aws_route_table_association" {
+  value = aws_route_table_association.my-route-association.id
+}
+
 
 
